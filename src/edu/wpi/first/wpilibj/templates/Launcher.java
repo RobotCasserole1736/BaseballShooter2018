@@ -33,6 +33,7 @@ public class Launcher {
             motorShooter2 = new CANJaguar(JagDeviceNum2);
             motorShooter1.changeControlMode(CANJaguar.ControlMode.kPercentVbus);
             motorShooter2.changeControlMode(CANJaguar.ControlMode.kPercentVbus);
+        
         } catch (CANTimeoutException ex) {
             ex.printStackTrace();
             
