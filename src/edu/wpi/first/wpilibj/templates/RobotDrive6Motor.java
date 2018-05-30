@@ -27,11 +27,11 @@ public class RobotDrive6Motor implements IUtility {
          * The integer value representing this enumeration
          */
         public final int value;
-        static final int kFrontLeft_val = 0;
-        static final int kFrontRight_val = 1;
+        static final int kFrontLeft_val = 2;
+        static final int kFrontRight_val = 4;
         static final int kMidLeft_val = 2;
-        static final int kMidRight_val = 3;
-        static final int kRearLeft_val = 4;
+        static final int kMidRight_val = 13;
+        static final int kRearLeft_val = 14;
         static final int kRearRight_val = 5;
         /**
          * motortype: front left

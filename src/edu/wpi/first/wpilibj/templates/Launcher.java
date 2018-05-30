@@ -19,12 +19,12 @@ public class Launcher {
     CANJaguar motorShooter1;
     CANJaguar motorShooter2;
     //inputs
-    int servoChannel = 0;
-    int JagDeviceNum1 = 0;
-    int JagDeviceNum2 = 1;
+    int servoChannel = 10;
+    int JagDeviceNum1 = 3;
+    int JagDeviceNum2 = 6;
     //Two throwing Motors
     int motorShooterId1 = 0;
-    int motorShooterId2 = 1;
+    int motorShooterId2 = 0;
     
     public Launcher() {
         latch = new Servo(servoChannel);
